@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+    .container {
+      height: 300px;
+      position: relative;
+    }
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 5%;
+    }
+    </style>
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <title>Motd</title>
 </head>
 <body>
-  <a href="https://www.patreon.com/bePatron?u=24716214" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
-  
+  <div class="container">
+    <div class="center">
+        <ul>
+          <li> Like the app? <br> <a href="https://www.patreon.com/bePatron?u=24716214" class="href"> Become a Patron!</a></li>
+          <li> Found a bug? <br> <a href="https://github.com/mazurwiktor/albion-online-stats/issues/new/choose" class="href"> Report an issue!</a></li>
+          <li> Have idea for feature? <br><a href="https://github.com/mazurwiktor/albion-online-stats/issues/new/choose" class="href"> Report a feature request!</a></li>
+          <li> Wanna talk? <br><a href="https://discord.gg/ApjCuDs"> Join our discord server :)</a></li>
+        </ul>
+    </div>
+  </div>
 </body>
 
 <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
